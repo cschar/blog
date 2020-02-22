@@ -16,3 +16,10 @@ when there are minima updates at github.com/jekyll/minima
 
 
 ```
+
+## local
+
+```
+bundle update
+bundle exec jekyll serve
+```
