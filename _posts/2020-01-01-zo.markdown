@@ -1,8 +1,6 @@
-
 ---
 layout: post
 title:  "gitlab ci configuring w/ netlify "
-date:   2020
 categories: gitlab ci-cd
 ---
 
