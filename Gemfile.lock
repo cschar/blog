@@ -248,7 +248,7 @@ DEPENDENCIES
   github-pages
   jekyll-feed (~> 0.6)
   jekyll-livereload
-  minima (~> 2.0)
+  minima (~> 2.5.1)
   tzinfo-data
 
 BUNDLED WITH
