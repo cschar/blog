@@ -193,7 +193,9 @@
   list-style: none;
 
   > li {
-    margin-bottom: $spacing-unit;
+    background: whitesmoke;
+    margin-bottom:2px;
+    // margin-bottom: $spacing-unit;
   }
 }
 
