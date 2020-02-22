@@ -1,0 +1,16 @@
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+
+
+.my-post-list {
+    @extend .post-list;
+    margin: 0px;
+    background: gainsboro;   
+}
+
+.my-post-list > li{
+    @extend .post-list;
+    background: #dca;
+    margin-top: 5px;   
+}

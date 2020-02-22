@@ -9,9 +9,7 @@ when deploying using gitlab ci you have tasks defined in stages.
 
 Make sure to use container that hopefully already has all tools you need.
 
-each script step starts at root of repo.
-
-so you have to cd on each step back into same directory.. unless theres a better way?
+once you cd into a directory... your there for the rest of the steps.
 
 ```yaml
 #.gitlab-ci.yml
@@ -29,10 +27,10 @@ deploy_step:
   script:
     - npm -v
     - cd template-master && npm i
-    # your build command
-    - cd template-master && npm run build
+    # your in template master now...
+    - npm run build
     - echo "hi"
     - echo `pwd` 
     - npm install netlify-cli -g
-    - cd template-master && netlify deploy --dir public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod
+    - netlify deploy --dir public --site $NETLIFY_SITE_ID --auth $NETLIFY_AUTH_TOKEN --prod
 ```

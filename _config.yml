@@ -27,6 +27,9 @@ github_username:  cschar
 markdown: kramdown
 theme: minima
 
+google_analytics: UA-96436087-4
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

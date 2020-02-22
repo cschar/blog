@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "gitlab ci configuring w/ netlify "
+title:  "jekyll site structure/style override"
 categories: gitlab ci-cd
 ---
 
