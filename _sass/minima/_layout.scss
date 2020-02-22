@@ -26,7 +26,7 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 2.25;
+  // line-height: $base-line-height * $base-font-size * 2.25;
 
   .nav-trigger {
       display: none;
@@ -37,6 +37,7 @@
   }
 
   .page-link {
+    display: inline-block;
     color: $text-color;
     line-height: $base-line-height;
 

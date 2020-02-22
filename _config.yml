@@ -32,6 +32,15 @@ google_analytics: UA-96436087-4
 minima:
   skin: sunrise
 
+
+### include our custom folder
+include: ['_pages']
+
+pages:
+  - about.md
+  - p5sketches.html
+
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

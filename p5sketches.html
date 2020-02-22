@@ -1,0 +1,21 @@
+---
+title: sketches page
+permalink: p5sketches.html
+layout: default
+#https://shopify.github.io/liquid/basics/operators/
+---
+
+
+<h1> p5 sketches </h1>
+
+<div class="custom-class">
+
+<ul>
+{% for page in site.pages %}
+    {% if page.url contains '/pages/' %}
+        <li>
+        <a href="/blog{{page.url}}"> {{page.title}} </a>
+        </li>
+    {% endif %}
+{% endfor %}
+</ul>
