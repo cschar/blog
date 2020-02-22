@@ -29,7 +29,8 @@ theme: minima
 
 google_analytics: UA-96436087-4
 
-
+minima:
+  skin: sunrise
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
